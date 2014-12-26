@@ -1,0 +1,55 @@
+/* Menu */
+
+#front-page-nav {
+  background-color: #fff;
+}
+
+#front-page-nav a {
+  color: #4ba8ea;
+}
+
+#front-page-nav ul.side-nav li:hover {
+  background-color: #e8f3fb;
+}
+
+/* index-banner */
+
+#index-banner {
+  background-color: #4ba8ea;
+  color: #fff;
+}
+
+#signup-btn {
+  background: #fff;
+  color: #4ba8ea;
+}
+
+/* About */
+#about i {
+  font-size: 6em;
+}
+
+#about .item {
+  text-align: center;
+}
+
+#about h5 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.71);
+}
+
+/* Sponsors */
+#sponsors .caption {
+  font-size: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #4ba8ea;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+}
