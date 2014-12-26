@@ -1,55 +1,53 @@
 /* Menu */
-
+/* line 3, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
 #front-page-nav {
-  background-color: #fff;
-}
+  background-color: #fff; }
 
+/* line 7, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
 #front-page-nav a {
-  color: #4ba8ea;
-}
+  color: #4ba8ea; }
 
+/* line 11, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
 #front-page-nav ul.side-nav li:hover {
-  background-color: #e8f3fb;
-}
+  background-color: #e8f3fb; }
 
 /* index-banner */
-
+/* line 17, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
 #index-banner {
   background-color: #4ba8ea;
-  color: #fff;
-}
+  color: #fff; }
 
+/* line 22, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
 #signup-btn {
   background: #fff;
-  color: #4ba8ea;
-}
+  color: #4ba8ea; }
 
 /* About */
+/* line 28, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
 #about i {
-  font-size: 6em;
-}
+  font-size: 6em; }
 
+/* line 32, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
 #about .item {
-  text-align: center;
-}
+  text-align: center; }
 
+/* line 36, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
 #about h5 {
   font-size: 1.8rem;
   font-weight: 500;
-  color: rgba(0, 0, 0, 0.71);
-}
+  color: rgba(0, 0, 0, 0.71); }
 
 /* Sponsors */
+/* line 43, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
 #sponsors .caption {
-  font-size: 20px;
-}
+  font-size: 20px; }
 
 /* Footer */
+/* line 48, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
 footer {
   background-color: #4ba8ea;
-  color: #fff;
-}
+  color: #fff; }
 
+/* line 53, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
 footer a {
-  color: #fff;
-}
+  color: #fff; }
