@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+  <title>#HackVG</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <%= stylesheet_link_tag "all" %>
+  </head>
+</head>
+<body>
+  <nav id="front-page-nav">
+    <div class="container">
+      <div class="nav-wrapper"><%= link_to '#HacVG', '/', class: "brand-logo", id: "logo-container" %>
+        <ul id="nav-mobile" class="right side-nav">
+          <li><a href="#">Sobre el Evento</a></li>
+          <li><a href="#">Horario</a></li>
+          <li><a href="#">Localización</a></li>
+          <li><%= link_to 'Datasets', '/datasets.html' %></li>
+        </ul><a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+      </div>
+    </div>
+  </nav>
+
+  <%= yield %>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Ayuda a crecer la comunidad</h5>
+          <p class="grey-text lighten-4">Todavía no tenemos sponsors, animate ponte en contacto con nosotros, ayudanos o colabora en este evento, estaremos encantados de hacerte publicidad.</p>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Unete</h5>
+          <p class="grey-text lighten-4">Nos gusta compartir y adquirir conocimiento relacionados con las nuevas tecnologías, siguenos en Twitter y en Meetup, acude a los eventos y propon nuevas ideas y eventos.</p>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Conectar</h5>
+          <ul>
+            <li><a class="white-text" href="http://twitter.com/vigodevs">@vigodevs</a></li>
+            <li><a class="white-text" href="http://twitter.com/vigodevs">/VigoDevs</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a href="http://materializecss.com">VigoDevs</a>
+      </div>
+    </div>
+  </footer>  
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <%= javascript_include_tag  "all" %>
+
+  </body>
+</html>
