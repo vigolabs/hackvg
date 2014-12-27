@@ -8,6 +8,10 @@ body {
   -webkit-font-smoothing: antialiased; }
 
 /* line 10, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/main.css.scss */
+h1 {
+  color: #4ba8ea; }
+
+/* line 14, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/main.css.scss */
 h2 {
   color: #4ba8ea;
   font-weight: 300;
@@ -15,10 +19,12 @@ h2 {
   line-height: 3.212rem;
   -webkit-font-smoothing: antialiased; }
 
-/* line 18, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/main.css.scss */
+/* line 22, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/main.css.scss */
 .header {
   text-align: center; }
 
-/* line 22, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/main.css.scss */
-table.striped tbody tr:nth-child(odd) {
-  background-color: #4ba8ea; }
+/* line 26, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/main.css.scss */
+input[type="submit"] {
+  background: none;
+  font-size: 1.2em;
+  font-weight: 700; }
