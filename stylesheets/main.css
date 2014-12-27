@@ -24,7 +24,12 @@ h2 {
   text-align: center; }
 
 /* line 26, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/main.css.scss */
-input[type="submit"] {
-  background: none;
-  font-size: 1.2em;
-  font-weight: 700; }
+#logo-container {
+  font-weight: 700;
+  word-spacing: -7px; }
+  /* line 29, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/main.css.scss */
+  #logo-container .dark_part {
+    color: #555; }
+  /* line 32, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/main.css.scss */
+  #logo-container .light_part {
+    color: #4ba8ea; }

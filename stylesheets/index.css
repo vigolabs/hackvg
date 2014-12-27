@@ -39,83 +39,95 @@
 /* line 40, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
 #steps {
   background: #f2f2f2;
-  padding: 30px 0; }
+  padding: 40px 0 30px 0; }
   /* line 43, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
-  #steps h3 {
-    font-size: 1.8rem;
-    font-weight: 500;
-    color: rgba(0, 0, 0, 0.71); }
-  /* line 48, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
-  #steps i {
-    font-size: 6em; }
-  /* line 51, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
   #steps .item {
     text-align: center; }
+    /* line 45, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
+    #steps .item h3 {
+      font-size: 1.8rem;
+      font-weight: 500;
+      margin: 10px 0 0 0;
+      color: rgba(0, 0, 0, 0.71); }
+    /* line 51, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
+    #steps .item .caption {
+      margin: 0px; }
+    /* line 54, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
+    #steps .item .icon {
+      height: 140px; }
 
 /* About */
-/* line 57, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
+/* line 61, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
 #about {
   padding: 30px 0; }
-  /* line 59, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
+  /* line 63, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
   #about h2 {
     margin-top: 0px; }
-  /* line 62, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
+  /* line 66, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
   #about #mockup {
     margin: 20px 10px 0 10px; }
-  /* line 65, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
+  /* line 69, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
   #about #instructions-btn {
     margin-top: 15px;
     font-weight: 800; }
 
 /* Faqs */
-/* line 72, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
+/* line 76, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
 #faqs {
   background: #4ba8ea;
   padding: 30px 0; }
-  /* line 75, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
+  /* line 79, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
   #faqs h2 {
     margin-top: 0px;
     color: #fff; }
-  /* line 79, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
+  /* line 83, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
   #faqs h3 {
     font-size: 1.4em;
     margin: 0;
     color: #fff; }
-  /* line 84, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
+  /* line 88, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
   #faqs p {
     margin: 0; }
-  /* line 87, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
+  /* line 91, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
   #faqs .faq {
     margin-bottom: 10px; }
 
 /* Schedule */
-/* line 93, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
+/* line 97, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
 #schedule {
   padding: 30px 0; }
-  /* line 95, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
+  /* line 99, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
   #schedule h2 {
     margin-top: 0px; }
+  /* line 102, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
+  #schedule table {
+    margin-top: 20px; }
+
+/* Location */
+/* line 109, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
+#location #map {
+  margin-top: 15px; }
 
 /* Sponsors */
-/* line 101, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
+/* line 115, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
 #sponsors {
   padding: 30px 0; }
-  /* line 103, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
+  /* line 117, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
   #sponsors h2 {
     margin-top: 0px; }
-  /* line 106, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
+  /* line 120, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
   #sponsors .caption {
     font-size: 20px; }
-  /* line 109, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
+  /* line 123, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
   #sponsors #sponsor-btn {
     font-weight: 800; }
 
 /* Footer */
-/* line 115, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
+/* line 129, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
 footer {
   background-color: #4ba8ea;
   color: #fff; }
 
-/* line 120, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
+/* line 134, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/index.css.scss */
 footer a {
   color: #fff; }
