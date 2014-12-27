@@ -1,0 +1,11 @@
+- name: Datos de contratos
+  description: Otra cosa
+  url: http://www.google.com
+
+- name: Datos de informes
+  description: Otra cosa
+  url: http://www.google.com
+
+- name: Datos de sueldos
+  description: Otra cosa
+  url: http://www.google.com

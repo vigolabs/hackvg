@@ -18,3 +18,7 @@ h2 {
 .header {
   text-align: center;
 }
+
+table.striped tbody tr:nth-child(odd) {
+  background-color: #4ba8ea;
+}

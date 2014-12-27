@@ -5,20 +5,14 @@ title: Datasets
   <h1>Datasets</h1>
   <div id="datasets" class="section">
     <div class="row">
-      <div class="col s12 m4 l4">
+      <% data.datasets.each do |dataset| %>
+        <div class="col s12 m6 l6">
           <div class="card-panel grey lighten-5 z-depth-1 dataset" >
-            <div class="row">
-              <div class="col s2">
-                <i class="large mdi-content-archive"></i>
-              </div>
-              <div class="col s10">
-                <span class="black-text">
-                  This is a square image. Add the "circle" class to it to make it appear circular.
-                </span>
-              </div>
-            </div>
+            <%= link_to dataset.name, dataset.url %>
+            <p><%= dataset.description %></p>
           </div>
         </div>
+      <% end %>
     </div>
   </div>
 </div>
