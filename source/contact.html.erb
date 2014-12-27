@@ -5,16 +5,15 @@ title: Contacto - #HackVG
   <div class="container">
     <h1>Contacto</h1>
     <div class="row">
-      <form action="https://getsimpleform.com/messages?form_api_token=69b2da3e781d35d48d89fd2e19ed4206" method="post" class="col s12">
-        <input type='hidden' name='redirect_to' value='http://vigodevs.github.io/hackvg' />
+      <form class="col s12" id="contact_form">
         <div class="row">
           <div class="input-field col s6">
-            <input id="first_name" type="text" name="first_name" required>
-            <label for="first_name">Nombre</label>
+            <input id="name" type="text" name="name" required>
+            <label for="name">Nombre</label>
           </div>
           <div class="input-field col s6">
-            <input id="last_name" type="text" name="last_name" required>
-            <label for="last_name">Apellidos</label>
+            <input id="phone" type="text" name="phone" required>
+            <label for="phone">Teléfono</label>
           </div>
         </div>
         <div class="row">
@@ -29,11 +28,13 @@ title: Contacto - #HackVG
         </div>
         <div class="row">
           <div class="input-field col s12">
-            <textarea class="materialize-textarea" name="message" required></textarea>
+            <textarea class="materialize-textarea" name="message" id="message" required></textarea>
             <label>Mensaje</label>
           </div>
         </div>
-        <input type='submit' value='Enviar' class='btn-large waves-effect waves-light' />
+        <button class="btn waves-effect waves-light" type="submit" name="action" id="contact_btn">Enviar
+          <i class="mdi-content-send right"></i>
+        </button>
       </form>
     </div>
   </div>
