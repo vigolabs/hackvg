@@ -18,3 +18,7 @@ h2 {
 /* line 18, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/main.css.scss */
 .header {
   text-align: center; }
+
+/* line 22, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/main.css.scss */
+table.striped tbody tr:nth-child(odd) {
+  background-color: #4ba8ea; }
