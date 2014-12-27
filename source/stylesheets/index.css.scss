@@ -36,27 +36,69 @@
 }
 
 /* Steps */
-#steps i {
-  font-size: 6em;
-}
-
-#steps .item {
-  text-align: center;
-}
-
-#steps h3 {
-  font-size: 1.8rem;
-  font-weight: 500;
-  color: rgba(0, 0, 0, 0.71);
+#steps {
+  background: #f2f2f2;
+  padding: 30px 0;
+  h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.71);
+  }
+  i {
+    font-size: 6em;
+  }
+  .item {
+    text-align: center;
+  }
 }
 
 /* About */
-#about img {
-  height: 300px;
+#about {
+  padding: 30px 0;
+  h2 {
+    margin-top: 0px;
+  }
+  #mockup {
+    margin: 20px 10px 0 10px;
+  }
+  #instructions-btn {
+    margin-top: 15px;
+    font-weight: 800;
+  }
+}
+
+/* Faqs */
+#faqs {
+  background: #4ba8ea;
+  padding: 30px 0;
+  h2 {
+    margin-top: 0px;
+    color: #fff;
+  }
+  h3 {
+    font-size: 1.4em;
+    margin: 0;
+    color: #fff;
+  }
+  p {
+    margin: 0;
+  }
+}
+
+/* Schedule */
+#schedule {
+  padding: 30px 0;
+  h2 {
+    margin-top: 0px;
+  }
 }
 
 /* Sponsors */
 #sponsors {
+  padding: 30px 0;
+  h2 {
+    margin-top: 0px;
+  }
   .caption {
     font-size: 20px;
   }
