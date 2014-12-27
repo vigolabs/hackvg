@@ -9189,3 +9189,7 @@ footer a {
 /* line 1, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/datasets.css.scss */
 .dataset i {
   font-size: 2em; }
+
+/* line 1, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/contact.css.scss */
+#contact_form #contact_btn {
+  font-weight: 800; }
