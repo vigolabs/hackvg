@@ -7,6 +7,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+h1 {
+  color: #4ba8ea;
+}
+
 h2 {
   color: #4ba8ea;
   font-weight: 300;
@@ -19,6 +23,8 @@ h2 {
   text-align: center;
 }
 
-table.striped tbody tr:nth-child(odd) {
-  background-color: #4ba8ea;
+input[type="submit"] {
+  background: none;
+  font-size: 1.2em;
+  font-weight: 700;
 }

@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-  <title>#HackVG</title>
+  <title><%= current_page.data.title || "#HackVG" %></title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
   <%= stylesheet_link_tag "all" %>
@@ -12,10 +12,9 @@
     <div class="container">
       <div class="nav-wrapper"><%= link_to '#HacVG', '/index.html', class: "brand-logo", id: "logo-container" %>
         <ul id="nav-mobile" class="right side-nav">
-          <li><a href="#">Sobre el Evento</a></li>
-          <li><a href="#">Horario</a></li>
-          <li><a href="#">Localización</a></li>
+          <li><%= link_to 'Inicio', '/index.html' %></li>
           <li><%= link_to 'Datasets', '/datasets.html' %></li>
+          <li><%= link_to 'Contacto', '/contact.html' %></li>
         </ul><a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
       </div>
     </div>
@@ -37,8 +36,9 @@
         <div class="col l3 s12">
           <h5 class="white-text">Conectar</h5>
           <ul>
-            <li><a class="white-text" href="http://twitter.com/vigodevs">@vigodevs</a></li>
-            <li><a class="white-text" href="http://twitter.com/vigodevs">/VigoDevs</a></li>
+            <li><%= link_to "Twitter @vigodevs", "https://twitter.com/vigodevs", class: "white-text"%></li>
+            <li><%= link_to "Meetup VigoDevs", "http://www.meetup.com/vigo-devs/", class: "white-text"%></li>
+            <li><%= link_to "Github VigoDevs", "https://github.com/vigodevs", class: "white-text"%></li>
           </ul>
         </div>
       </div>
