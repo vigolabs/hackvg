@@ -24,12 +24,16 @@ h2 {
   text-align: center; }
 
 /* line 26, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/main.css.scss */
+.btn-large {
+  font-weight: 800; }
+
+/* line 30, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/main.css.scss */
 #logo-container {
   font-weight: 700;
   word-spacing: -7px; }
-  /* line 29, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/main.css.scss */
+  /* line 33, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/main.css.scss */
   #logo-container .dark_part {
     color: #555; }
-  /* line 32, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/main.css.scss */
+  /* line 36, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/main.css.scss */
   #logo-container .light_part {
     color: #4ba8ea; }
