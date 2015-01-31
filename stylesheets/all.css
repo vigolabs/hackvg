@@ -9226,3 +9226,17 @@ footer a {
 /* line 1, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/contact.css.scss */
 #contact_form #contact_btn {
   font-weight: 800; }
+
+/* line 2, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/projects.css.scss */
+#projects .name {
+  font-size: 16px;
+  color: #1E88E5;
+  font-weight: bold; }
+/* line 7, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/projects.css.scss */
+#projects .section {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  padding: 0px; }
+/* line 12, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/projects.css.scss */
+#projects .description, #projects .developers {
+  margin-top: 5px; }
