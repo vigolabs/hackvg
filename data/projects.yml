@@ -7,10 +7,18 @@
   url: ""
   developers: "César Pérez Iglesias @ouvigna, Toni Martinez Carballo @toniousli, Adam Anh Doan Kim Caramés @DkcAdam"
 - name: City Report
-  description: "Aplicación para poder registrar incidencias en unas coordenadas y poder visualizarlas en un mapa Tener un formulario para crear incidencias y poder visualizarlas en el mapa."
+  description: "Aplicación para poder registrar incidencias en unas coordenadas y poder visualizarlas en un mapa. Tener un formulario para crear incidencias y poder visualizarlas en el mapa."
   url: ""
   developers: "Silvano @silvano1906, Héctor Fernández @HectorFerdz, Carlos Goce @carlosgoce, Alex Hermida @alexhermida"
 - name: GinAdvisor
   description: "Comparador de precios de ginebras (extensible a otros productos)."
-  url: ""
+  url: "http://gin.arengu.com"
   developers: "Sergio Regueira de la Iglesia, Fernando Blanco Dosil @FerBlandoDosil, Sergio Vilas Enríquez @svilas13"
+- name: MaterialMovies
+  description: "Permite gestionar tus películas vistas, favoritas y pendientes."
+  url: ""
+  developers: "Saul @_saulmm, Abdon @abdonrd, Ismael Reyes, Reinaldo Aguilera @reiagilera"
+- name: RTMap
+  description: "Posicionamiento sobre mapas en tiempo real."
+  url: ""
+  developers: "Jesús Sayar Celestino @jsayar, Iago Lastra @iagolast, Eloy Coto @eloycoto, Antón Román @AntonRoman, David Ibañez @david_ibanez"
