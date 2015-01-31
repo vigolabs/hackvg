@@ -1,0 +1,27 @@
+---
+title: Proyectos - #HackVG
+---
+<section id="projects">
+  <div class="container">
+    <h1>Proyectos</h1>
+      <div class="row">
+      <% data.projects.each do |project| %>
+        <div class="col s12 m12 l12">
+          <div class="card-panel grey lighten-5 z-depth-1 dataset" >
+            <p class="name">
+              <% if project.url.length > 0 %>
+                <%= link_to project.name, project.url %>
+              <% else %>
+                <%= project.name %>
+              <% end %>
+            </p>
+            <p class="section"><strong>Descripción</strong></p>
+            <p class="description"><%= project.description %></p>
+            <p class="section"><strong>Desarrolladores</strong></p>
+            <p class="developers"><%= project.developers %></p>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</section>

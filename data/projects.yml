@@ -1,0 +1,16 @@
+- name: Music Link
+  description: Aplicación para comunicar bandas musicales y locales con posibilidad financiación/organización estilo kickstarter.
+  url: http://www.google.com
+  developers: "David Constenla Rodriguez @daconstenla, Jorge Prado Casanovas @jorgedeprado, Daniel Ledo Martínez @docmurphy"
+- name: World Fit
+  description: "Creación de una red social para eventos competitivos haciendo uso de Google Fit API. Visualizar la actividad en la semana en curso y el historial de retos. Crear retos públicas de una duración determinada a las cuales pueden unirse otros usuarios. Tras finalizar un reto, el ganador será el que más actividad ha realizado durante el curso de la misma. Consultar los retos a los cuales participan y un listado de retos públicos a los cuales poder unirse."
+  url: ""
+  developers: "César Pérez Iglesias @ouvigna, Toni Martinez Carballo @toniousli, Adam Anh Doan Kim Caramés @DkcAdam"
+- name: City Report
+  description: "Aplicación para poder registrar incidencias en unas coordenadas y poder visualizarlas en un mapa Tener un formulario para crear incidencias y poder visualizarlas en el mapa."
+  url: ""
+  developers: "Silvano @silvano1906, Héctor Fernández @HectorFerdz, Carlos Goce @carlosgoce, Alex Hermida @alexhermida"
+- name: GinAdvisor
+  description: "Comparador de precios de ginebras (extensible a otros productos)."
+  url: ""
+  developers: "Sergio Regueira de la Iglesia, Fernando Blanco Dosil @FerBlandoDosil, Sergio Vilas Enríquez @svilas13"
