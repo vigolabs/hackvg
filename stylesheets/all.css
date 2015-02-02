@@ -9228,15 +9228,24 @@ footer a {
   font-weight: 800; }
 
 /* line 2, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/projects.css.scss */
+#projects h1 {
+  margin-bottom: 5px; }
+/* line 5, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/projects.css.scss */
+#projects h2 {
+  margin-bottom: 10px; }
+/* line 8, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/projects.css.scss */
+#projects .reward {
+  margin-bottom: 15px; }
+/* line 11, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/projects.css.scss */
 #projects .name {
   font-size: 16px;
   color: #1E88E5;
   font-weight: bold; }
-/* line 7, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/projects.css.scss */
+/* line 16, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/projects.css.scss */
 #projects .section {
   margin-top: 5px;
   margin-bottom: 0px;
   padding: 0px; }
-/* line 12, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/projects.css.scss */
+/* line 21, /Users/jsayar/Desarrollo/hackvg/source/stylesheets/projects.css.scss */
 #projects .description, #projects .developers {
   margin-top: 5px; }
