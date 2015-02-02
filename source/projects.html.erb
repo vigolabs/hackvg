@@ -3,25 +3,79 @@ title: Proyectos - #HackVG
 ---
 <section id="projects">
   <div class="container">
-    <h1>Proyectos</h1>
       <div class="row">
-      <% data.projects.each do |project| %>
-        <div class="col s12 m12 l12">
+      <h1>Proyectos realizados</h1>
+      <h2>Primer premio</h2>
+        <div class="col s12 m12 l12 reward">
           <div class="card-panel grey lighten-5 z-depth-1 dataset" >
-            <p class="name">
-              <% if project.url.length > 0 %>
-                <%= link_to project.name, project.url %>
-              <% else %>
-                <%= project.name %>
-              <% end %>
-            </p>
+            <p class="name">MaterialMovies</p>
             <p class="section"><strong>Descripción</strong></p>
-            <p class="description"><%= project.description %></p>
+            <p class="description">Aplicación para realizar gestionar las peliculas y series vistas, pendientes y favoritas, permitiendo la importación de datos desde plataformas multimedia.</p>
             <p class="section"><strong>Desarrolladores</strong></p>
-            <p class="developers"><%= project.developers %></p>
+            <p class="developers">Saul @_saulmm, Abdon @abdonrd, Ismael Reyes, Reinaldo Aguilera @reiagilera</p>
           </div>
         </div>
-      <% end %>
+        <h2>Segundo premio</h2>
+        <div class="col s12 m12 l12 reward">
+          <div class="card-panel grey lighten-5 z-depth-1 dataset" >
+            <p class="name">World Fit</p>
+            <p class="section"><strong>Descripción</strong></p>
+            <p class="description">
+              Creación de una red social para eventos competitivos haciendo uso de Google Fit API. Visualizar la actividad en la semana en curso y el historial de retos. Crear retos públicas de una duración determinada a las cuales pueden unirse otros usuarios. Tras finalizar un reto, el ganador será el que más actividad ha realizado durante el curso de la misma. Consultar los retos a los cuales participan y un listado de retos públicos a los cuales poder unirse.
+            </p>
+            <p class="section"><strong>Desarrolladores</strong></p>
+            <p class="developers">César Pérez Iglesias @ouvigna, Toni Martinez Carballo @toniousli, Adam Anh Doan Kim Caramés @DkcAdam</p>
+          </div>
+        </div>
+      <h2>Otros proyectos</h2>
+      <div class="col s12 m12 l12">
+        <div class="card-panel grey lighten-5 z-depth-1 dataset" >
+          <p class="name">Music Link</p>
+          <p class="section"><strong>Descripción</strong></p>
+          <p class="description">
+            Aplicación para comunicar bandas musicales y locales con posibilidad financiación/organización estilo kickstarter.
+          </p>
+          <p class="section"><strong>Desarrolladores</strong></p>
+          <p class="developers">David Constenla Rodriguez @daconstenla, Jorge Prado Casanovas @jorgedeprado, Daniel Ledo Martínez @docmurphy</p>
+        </div>
+      </div>
+
+      <div class="col s12 m12 l12">
+        <div class="card-panel grey lighten-5 z-depth-1 dataset" >
+          <p class="name">City Report</p>
+          <p class="section"><strong>Descripción</strong></p>
+          <p class="description">
+            Aplicación para poder registrar incidencias en unas coordenadas y poder visualizarlas en un mapa. Tener un formulario para crear incidencias y poder visualizarlas en el mapa.
+          </p>
+          <p class="section"><strong>Desarrolladores</strong></p>
+          <p class="developers">Silvano @silvano1906, Héctor Fernández @HectorFerdz, Carlos Goce @carlosgoce, Alex Hermida @alexhermida</p>
+        </div>
+      </div>
+
+      <div class="col s12 m12 l12">
+        <div class="card-panel grey lighten-5 z-depth-1 dataset" >
+          <p class="name">GinAdvisor</p>
+          <p class="section"><strong>Descripción</strong></p>
+          <p class="description">
+            Comparador de precios de ginebras (extensible a otros productos).
+          </p>
+          <p class="section"><strong>Desarrolladores</strong></p>
+          <p class="developers">Sergio Regueira de la Iglesia, Fernando Blanco Dosil @FerBlandoDosil, Sergio Vilas Enríquez @svilas13</p>
+        </div>
+      </div>
+
+      <div class="col s12 m12 l12">
+        <div class="card-panel grey lighten-5 z-depth-1 dataset" >
+          <p class="name">RTMap</p>
+          <p class="section"><strong>Descripción</strong></p>
+          <p class="description">
+            Posicionamiento sobre mapas en tiempo real.
+          </p>
+          <p class="section"><strong>Desarrolladores</strong></p>
+          <p class="developers">Jesús Sayar Celestino @jsayar, Iago Lastra @iagolast, Eloy Coto @eloycoto, Antón Román @AntonRoman, David Ibañez @david_ibanez</p>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
